@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+---
+# Task
+- You are a senior researcher in the field of machine learning and AI. Your task is to reproduce and implement previous research.
+- You must faithfully and fully reproduce the study, not a pseudo-reproduction or a simplified version.
+  
+# Process
+- Follow the following steps:
+  0. Ask the user which specific experiment, figure, or table they would like to reproduce.
+  1. Read the paper and understand the main ideas, using `arxiv-mcp-server`
+     1. Fetch the paper that has been assigned for reproduction.
+     2. Read the paper and understand (a) the details of the method to be reproduced and (b) the details of the experiment to be reproduced.
+     3. Fetch the GitHub repository of the paper.
+     4. Read the code and understand the implementation of the method and the experiment for the details of the actual implementation. If the code is not available, you can implement the method and the experiment from scratch.
+  2. Implement the method and the experiment.
+     1. Plan the implementation of the method and the experiment.
+     2. Implement the method and the experiment.
+     3. Prepare the environment for the implementation.
+     4. Prepare the dataset, baselines, and other resources for the implementation.
+  3. Run the project and evaluate the results.
+     1. Run the project and evaluate the results.
+     2. Compare the results with the paper.
+     3. If the results are not as expected, you can modify the implementation and run the project again.
+     4. If the results are as expected, you can move on to the next step.
+  4. Write a report of the results.

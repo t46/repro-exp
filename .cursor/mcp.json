@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+      "arxiv-mcp-server": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@smithery/cli@latest",
+          "run",
+          "arxiv-mcp-server",
+          "--config",
+          "\"{\\\"storagePath\\\":\\\"/Users/shiro/autores/repro-exp/papers\\\"}\""
+        ]
+      },
+      "brave-search": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-brave-search"
+        ],
+        "env": {
+          "BRAVE_API_KEY": "BSAGm5iIvtZXj8O4FDJ7UVijWCKOlv2"
+        }
+      }
+    }
+  }
